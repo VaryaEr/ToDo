@@ -1,0 +1,219 @@
+@import url('./assets/css/normalize.css');
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/fonts/Inter-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* buttons */
+
+.btn-primary {
+  border-radius: 4px;
+  background: #7CABE3;
+  padding: 8px 20px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: fit-content;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-base {
+  padding: 8px 20px;
+  cursor: pointer;
+  border: none;
+  color: #7D8CA1;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: transparent;
+}
+
+/* input */
+
+.input-primary {
+  border-radius: 4px;
+  background: #F0F3F8;
+  width: 100%;
+  padding: 8px;
+  height: fit-content;
+  border: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* text */
+
+.simple-text {
+  color: #71747C;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+}
+
+.page-title {
+  color: #38393d;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* form */
+
+.form_block {
+  border-radius: 4px;
+  background: #fff;
+  display: flex;
+  width: 380px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.form_title {
+  color: #38393d;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+
+.form_close {
+  margin-left: 12px;
+}
+
+.form_header-container,
+.form-el {
+  width: 100%;
+}
+
+.form-el input {
+  margin-top: 4px;
+}
+
+.form_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form_close {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.form_project-title {
+  margin-bottom: 4px;
+}
+
+/* modal */
+
+.modal-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+
+.modal-content {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
